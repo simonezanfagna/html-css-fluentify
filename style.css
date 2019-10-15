@@ -60,6 +60,10 @@ ul{
   font-weight: bold;
 }
 
+.header_1 ul li a:hover{
+  color: orange;
+}
+
 .header_2{
   float: right;
   margin-top: 25px;
@@ -126,4 +130,79 @@ button{
 
 section .buttom_struttura{
   padding: 12px 24px;
+}
+
+.section_introduzione{
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 30px;
+}
+
+section .intro1{
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+section .intro2{
+  font-size: 18px;
+  font-weight: 300;
+  color: #999;
+}
+
+.ul_colonne{
+  width: 80%;
+  display: inline-block;
+  margin: auto;
+}
+
+.section_colonne{
+  text-align: center;
+}
+
+.section_colonne ul li{
+  display: inline-block;
+  width: 33%;
+  float: left;
+  padding:0 15px;
+}
+
+.colonna1 img, .colonna2 img, .colonna3 img{
+  height: 160px;
+}
+
+hr{
+  width: 30px;
+  text-align: center;
+  height: 0;
+  background-color: lightgrey;
+  border-width: 1px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  position: relative;
+}
+
+.img_colonna{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.colonna1, .colonna2, .colonna3{
+  text-align: center;
+}
+
+.colonna1 h3, .colonna2 h3, .colonna3 h3{
+  font-size: 23px;
+  color: #7fb802;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.colonna1 p, .colonna2 p, .colonna3 p{
+  color: #999;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
 }
